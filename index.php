@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>- David Alejandro Barroso Contreras - Portafolio - </title>
+    <title>David Barroso - Portafolio </title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -138,7 +138,7 @@ p {
 <body>
 
     <div class="container text-center mt-5">
-    <h1 class="modern-title">David A Barroso C</h1>
+    <h1 class="modern-title">-David A Barroso C-</h1>
     <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
     <p>Elige una de las siguientes opciones:</p>
 
