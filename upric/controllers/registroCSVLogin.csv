@@ -1,0 +1,136 @@
+fecha,id_usuario,contraseña,url,ip,operación,observación
+"2024-06-02 18:43:45",tutores,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,cierre_sesion,"CERRADA LA SESION"
+"2024-06-02 18:43:52",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4
+"2024-06-02 18:44:04",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-02 18:44:46",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,cierre_sesion,"CERRADA LA SESION"
+"2024-06-02 18:44:52",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4
+"2024-06-02 18:44:59",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4
+"2024-06-02 18:45:05",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-02 18:52:26",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,cierre_sesion,"CERRADA LA SESION"
+"2024-06-02 18:52:35",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4
+"2024-06-02 18:52:41",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-02 18:52:48",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,cierre_sesion,"CERRADA LA SESION"
+"2024-06-02 18:52:55",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c402:ba00:4174:9d79:9510:2ff4,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 17:57:18",Raquel,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,87.124.230.193,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 18:00:50",Raquel,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,87.124.230.193,cierre_sesion,"CERRADA LA SESION"
+"2024-06-03 18:01:18",barroso,,https://www.upric.es/dashboard/controllers/login-manage.php,87.124.230.193,inicio_sesion,87.124.230.193
+"2024-06-03 18:01:33",Raquel,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,87.124.230.193,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 20:35:35",jeanpierrer@gmail.com,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87
+"2024-06-03 20:49:23",tutores,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:61df:8caa:778c:f7bd,inicio_sesion,2a0c:5a81:c309:9300:61df:8caa:778c:f7bd
+"2024-06-03 20:49:29",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:61df:8caa:778c:f7bd,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 20:50:23",jean,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 20:56:05",jean,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,cierre_sesion,"CERRADA LA SESION"
+"2024-06-03 20:56:09",jean,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 20:57:18",jean,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,cierre_sesion,"CERRADA LA SESION"
+"2024-06-03 20:57:21",jean,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 21:06:17",jean,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,cierre_sesion,"CERRADA LA SESION"
+"2024-06-03 21:06:22",jean,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 21:06:52",jean,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,cierre_sesion,"CERRADA LA SESION"
+"2024-06-03 21:06:57",jean,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:5201:8e00:50ce:b2fa:d92a:da87,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-03 23:01:13",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd1f:a3c1:7192:45bb:9f82:b293,inicio_sesion,2a02:9130:fd1f:a3c1:7192:45bb:9f82:b293
+"2024-06-03 23:01:27",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd1f:a3c1:7192:45bb:9f82:b293,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 19:21:41",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 19:33:06",tutores,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 19:38:03",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 19:40:58",tutores,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 19:41:23",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 19:49:27",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:d975:6813:42f8:dcd9,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 22:58:20",tutores,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-04 22:58:49",tutores,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-04 22:58:56",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:18:33",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:46:55",rodolfo,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8
+"2024-06-04 23:47:12",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:49:38",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 23:49:44",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:50:07",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 23:50:13",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:50:35",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 23:50:46",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:51:17",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:52:12",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:52:41",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:53:11",tutores,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 23:53:16",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,cierre_sesion,"CERRADA LA SESION"
+"2024-06-04 23:53:20",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-04 23:53:21",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:978:e7ac:d8b8:86c8,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-04 23:53:29",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:01:16",asd,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-05 00:02:12",asdasd,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-05 00:02:12",asdasd,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-05 00:02:26",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:08:06",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-05 00:08:17",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:08:31",tutores,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-05 00:08:34",Rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:08:48",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-05 00:09:04",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:09:43",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-05 00:09:49",rodolfo,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 00:12:42",Rodolfo,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,cierre_sesion,"CERRADA LA SESION"
+"2024-06-05 00:12:51",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7
+"2024-06-05 00:13:02",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:2860:ed6f:44ad:9df7,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 01:07:41",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,37.134.245.233,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 01:07:52",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,37.134.245.233,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 01:07:54",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,37.134.245.233,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 01:07:56",tutores,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,37.134.245.233,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 18:43:59",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:5c4c:3b31:3cf6:8d93,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-05 19:43:53",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:63eb:5cfb:8e8e:3cd0:9d80,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:17:59",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:23:45",barroso347,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 08:23:54",root,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:24:14",root,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 08:24:18",root,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:24:45",root,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 08:24:51",user1,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:25:34",user1,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 08:25:41",user2,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 08:26:25",user2,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a02:9130:fd10:bbb6:c860:2503:cc36:6735,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 08:47:42",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:6536:e655:7bb4:7d75,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 10:45:48",barroso,,https://www.upric.es/dashboard/controllers/login-manage.php,31.4.137.155,inicio_sesion,31.4.137.155
+"2024-06-06 10:46:39",barroso,,https://www.upric.es/dashboard/controllers/login-manage.php,31.4.137.155,inicio_sesion,31.4.137.155
+"2024-06-06 10:46:47",user2,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 10:46:50",user1,,https://www.upric.es/dashboard/controllers/login-manage.php,31.4.137.155,inicio_sesion,31.4.137.155
+"2024-06-06 10:46:54",barroso,,https://www.upric.es/dashboard/controllers/login-manage.php,31.4.137.155,inicio_sesion,31.4.137.155
+"2024-06-06 10:46:58",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:8d10:f5b9:1483:9d07,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 10:47:06",user1,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 10:49:58",user1,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,88.12.116.56,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 10:50:05",user1,,https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,88.12.116.56
+"2024-06-06 10:50:15",user1,,https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,88.12.116.56
+"2024-06-06 10:50:24",user1,,https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,88.12.116.56
+"2024-06-06 10:50:30",barroso,,https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,88.12.116.56
+"2024-06-06 10:51:31",user3,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 10:51:51",user2,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,88.12.116.56,cierre_sesion,"CERRADA LA SESION"
+"2024-06-06 10:52:01",user3,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,88.12.116.56,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-06 12:39:38",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a02:9130:fd10:bbb6:bc15:5cae:a008:b4ab,inicio_sesion,2a02:9130:fd10:bbb6:bc15:5cae:a008:b4ab
+"2024-06-06 18:38:55",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:40e0:9ed7:e132:7e21,inicio_sesion,2a0c:5a81:c309:9300:40e0:9ed7:e132:7e21
+"2024-06-08 15:04:13",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:d082:effe:c096:ad40,inicio_sesion,2a0c:5a81:c309:9300:d082:effe:c096:ad40
+"2024-06-08 15:04:23",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:d082:effe:c096:ad40,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-08 15:06:48",Barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,80.233.45.239,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-08 20:16:22",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:203b:418e:2a87:c9f3,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-14 01:37:26",55026262g,"No necesaria para esta operacion",https://www.upric.es/dashboard//controllers/cerrar-sesion.php,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f,cierre_sesion,"CERRADA LA SESION"
+"2024-06-14 01:37:29",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f,inicio_sesion,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f
+"2024-06-14 01:37:43",barroso347,,https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f,inicio_sesion,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f
+"2024-06-14 01:37:57",barroso347,"clave Usuario",https://www.upric.es/dashboard/controllers/login-manage.php,2a0c:5a81:c309:9300:3c36:f4d0:572b:716f,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-16 14:54:45",Barroso347,,https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,2a0c:5a80:a000:e500:74ce:e59:41e6:176d
+"2024-06-16 14:54:53",Barroso347,,https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,2a0c:5a80:a000:e500:74ce:e59:41e6:176d
+"2024-06-16 14:55:01",tutores,,https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,2a0c:5a80:a000:e500:74ce:e59:41e6:176d
+"2024-06-16 14:55:49",Barroso347,,https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,2a0c:5a80:a000:e500:74ce:e59:41e6:176d
+"2024-06-16 14:56:09",barroso,,https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,2a0c:5a80:a000:e500:74ce:e59:41e6:176d
+"2024-06-16 14:56:17",tutores,"clave Usuario",https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-16 14:56:43",tutores,"No necesaria para esta operacion",https://upric.barrosocda.com//controllers/cerrar-sesion.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,cierre_sesion,"CERRADA LA SESION"
+"2024-06-16 14:56:49",tutores,"clave Usuario",https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a80:a000:e500:74ce:e59:41e6:176d,inicio_sesion,"LOGIN CORRECTO"
+"2024-06-17 17:53:51",Barroso347,"clave Usuario",https://upric.barrosocda.com/controllers/login-manage.php,2a0c:5a81:c30b:8800:dc46:7d24:ba58:ed20,inicio_sesion,"LOGIN CORRECTO"
+"2024-07-08 17:36:48",barroso,,https://upric.barrosocda.com/controllers/login-manage.php,2a04:4e41:22:9::4467:ea28,inicio_sesion,2a04:4e41:22:9::4467:ea28
+"2024-09-03 15:19:16",tamia.kerluke11@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:19:20",tamia.kerluke11@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:19:22",pamela73@yahoo.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:19:24",pamela73@yahoo.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:19:26",tamia.kerluke11@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:19:28",tamia.kerluke11@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,102.129.152.95,inicio_sesion,102.129.152.95
+"2024-09-03 15:28:37",selina45@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74
+"2024-09-03 15:28:41",selina45@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74
+"2024-09-03 15:28:43",luka_freimann0@gmail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74
+"2024-09-03 15:28:45",luka_freimann0@gmail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74
+"2024-09-03 15:28:47",selina45@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74
+"2024-09-03 15:28:55",selina45@bdcimail.com,,https://upric.barrosocda.com/controllers/login-manage.php,2a0b:f4c2:3::74,inicio_sesion,2a0b:f4c2:3::74

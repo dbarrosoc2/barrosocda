@@ -1,0 +1,87 @@
+
+.multiselect-dropdown{
+    position: relative;
+    min-height: 3.5rem;
+    width: 100%;
+    padding: 2rem .8rem .8rem .8rem;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+  }
+  .multiselect-dropdown span.optext{
+    margin-right:0.5em; 
+    margin-bottom:2px;
+    padding:1px 0; 
+    border-radius: 4px; 
+    display:inline-block;
+  }
+  .multiselect-dropdown span.optext{
+    display: inline-flex;
+    align-items: center;
+    background-color:rgba( var(--bs-custom-gray-rgb), .05);
+    font-size: .8rem;
+    color: rgba( var(--bs-custom-gray-rgb), .7);
+    padding: .3rem 1rem; 
+    margin: .4rem .4rem .4rem 0;
+  }
+  .multiselect-dropdown span.optext .optdel {
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #666;
+    margin-left: .8rem;
+    transition: all .1s linear;
+  }
+  .multiselect-dropdown span.optext .optdel:hover { color: #c66;}
+  .multiselect-dropdown-list-wrapper{
+    box-shadow: rgba( var(--bs-custom-gray-rgb), .1) 0 3px 8px;
+    z-index: 10;
+    padding: 1rem;
+    border-radius: 4px;
+    display: none;
+    margin: -1px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background: white;
+  }
+  .multiselect-dropdown-list-wrapper .multiselect-dropdown-search{
+    margin-bottom:1rem;
+  }
+  .multiselect-dropdown-list{
+    padding:2px;
+    height: 15rem;
+    overflow-y:auto;
+    overflow-x: hidden;
+  }
+  .multiselect-dropdown-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  .multiselect-dropdown-list::-webkit-scrollbar-thumb {
+    background-color: #bec4ca;
+    border-radius:3px;
+  }
+  
+  .multiselect-dropdown-list div{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom:  .5rem;
+  }
+  .multiselect-dropdown-list input{
+    height: 1.15em;
+    width: 1.15em;
+    margin-right: 0.35em;  
+  }
+  .multiselect-dropdown-list div.checked{
+  }
+  .multiselect-dropdown-list div:hover{
+    background-color: #ced4da;
+  }
+  .multiselect-dropdown span.maxselected {width:100%;}
+  .multiselect-dropdown-all-selector {border-bottom:solid 1px #999;}
