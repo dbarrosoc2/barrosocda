@@ -1,0 +1,24 @@
+        .custom-link-color {
+            color: #000000 !important;
+            
+        }
+
+        .small-text {
+            font-size: 12px;
+        }
+
+        .container-tarjetas {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container-tarjetas .col-md-4 {
+            margin: 0 auto;
+            /* Esto centra las columnas */
+            float: none;
+        }
+
+        .container-ultima-conexion {
+            display: flex;
+            justify-content: flex-end;
+        }
