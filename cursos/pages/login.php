@@ -20,7 +20,7 @@ $ocultarFormulario = "block";
         $mensaje .= '</div>';
         unset($_SESSION['errorDatos']); // Only unset errorDatos, don't destroy the whole session
     }
-    echo 5;
+    
 
     $errores = array();
 
