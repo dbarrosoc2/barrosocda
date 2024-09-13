@@ -59,7 +59,6 @@ session_start();
                     $_SESSION['email'] = $resultado['email'];
                     $_SESSION['idempleado'] = $resultado['cod_empleado'];
                     $_SESSION['rol'] = $resultado['rol'];
-                    echo "Intentando conectar y ejecutar consulta...";
                     
                     header("Location: inicio.php");
                     exit();
