@@ -5,13 +5,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-/* Vaciar las variables guardadas */
-session_start();
-session_unset();
-/* Cerrar sesión */
-session_destroy();
-header('Refresh: 3; URL = ../pages/login.php');
-exit();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -63,3 +56,12 @@ exit();
 </body>
 
 </html>
+
+<?php/* Vaciar las variables guardadas */
+session_start();
+session_unset();
+/* Cerrar sesión */
+session_destroy();
+header('Refresh: 3; URL = ../pages/login.php');
+exit();
+?>
