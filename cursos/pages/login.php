@@ -3,24 +3,14 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 session_start();
-?>
-<!DOCTYPE html>
-<html lang="en">
-<?php
-$title = "LOGIN";
-require_once '../common/head.php';
-$ocultarFormulario = "block";
-?>
 
-<body style="background-color: #f8f9fa;">
-    <?php
     if (isset($_SESSION['errorDatos'])) {
         $mensaje = '<div class="alert alert-danger text-center" role="alert">';
         $mensaje .= 'Usuario y/o contraseña incorrectos';
         $mensaje .= '</div>';
         unset($_SESSION['errorDatos']); // Only unset errorDatos, don't destroy the whole session
     }
-    echo 5;
+
 
     $errores = array();
 
@@ -68,7 +58,6 @@ $ocultarFormulario = "block";
                     $_SESSION['email'] = $resultado['email'];
                     $_SESSION['idempleado'] = $resultado['cod_empleado'];
                     $_SESSION['rol'] = $resultado['rol'];
-                    var_dump($_SESSION);
 
                     header("Location: inicio.php");
                     exit();
@@ -83,6 +72,17 @@ $ocultarFormulario = "block";
         }
     }
     ?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<?php
+$title = "LOGIN";
+require_once '../common/head.php';
+$ocultarFormulario = "block";
+?>
+<body style="background-color: #f8f9fa;">
     <div class="container mt-3">
         <div class="container-fluid h-100">
             <div class="row align-items-center justify-content-center h-100">
