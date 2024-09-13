@@ -59,10 +59,10 @@ session_start();
                     $_SESSION['idempleado'] = $resultado['cod_empleado'];
                     $_SESSION['rol'] = $resultado['rol'];
                     $_SESSION['login_success'] = true;
-                    header("Location: success.php");
-                    exit();
-                    // header("Location: inicio.php");
+                    // header("Location: success.php");
                     // exit();
+                    header("Location: inicio.php");
+                    exit();
 
                 } else {
                     $_SESSION['errorDatos'] = true;
