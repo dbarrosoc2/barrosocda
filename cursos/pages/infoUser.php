@@ -1,3 +1,9 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -7,7 +13,7 @@
     }
 </style>
 <?php
-session_start();
+
 $title = $_SESSION['nombre'];
 require '../common/head.php';
 require '../common/headerIniciado.php';

@@ -1,5 +1,9 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 session_start();
+
 require 'conexion.php';
 try {
     // Datos de conexión a la base de datos (reemplaza con tus propios valores)
