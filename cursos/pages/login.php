@@ -1,15 +1,34 @@
 <?php
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<?php
+$title = "LOGIN";
+require_once '../common/head.php';
+$ocultarFormulario = "block";
+?>
 
+<body style="background-color: #f8f9fa;">
+    <?php
+    if (isset($_SESSION['errorDatos'])) {
+        $mensaje = '<div class="alert alert-danger text-center" role="alert">';
+        $mensaje .= 'Usuario y/o contraseña incorrectos';
+        $mensaje .= '</div>';
+        unset($_SESSION['errorDatos']); // Only unset errorDatos, don't destroy the whole session
+    }
+    echo 5;
+
+    $errores = array();
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         function limpiar($variable) {
             return trim(htmlspecialchars(stripslashes($variable)));
         }
-        $errores = array();
+
         $user = isset($_POST['user']) ? limpiar($_POST['user']) : "";
         $pass = isset($_POST['pass']) ? limpiar($_POST['pass']) : "";
         $hora = isset($_POST['hora_login']) ? limpiar($_POST['hora_login']) : "";
@@ -49,6 +68,7 @@ session_start();
                     $_SESSION['email'] = $resultado['email'];
                     $_SESSION['idempleado'] = $resultado['cod_empleado'];
                     $_SESSION['rol'] = $resultado['rol'];
+                    var_dump($_SESSION);
 
                     header("Location: inicio.php");
                     exit();
@@ -61,23 +81,6 @@ session_start();
                 echo "Error: " . $e->getMessage();
             }
         }
-    }
-?>
-<!DOCTYPE html>
-<html lang="en">
-<?php
-$title = "LOGIN";
-require_once '../common/head.php';
-$ocultarFormulario = "block";
-?>
-
-<body style="background-color: #f8f9fa;">
-    <?php
-    if (isset($_SESSION['errorDatos'])) {
-        $mensaje = '<div class="alert alert-danger text-center" role="alert">';
-        $mensaje .= 'Usuario y/o contraseña incorrectos';
-        $mensaje .= '</div>';
-        unset($_SESSION['errorDatos']); // Only unset errorDatos, don't destroy the whole session
     }
     ?>
     <div class="container mt-3">
