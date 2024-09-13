@@ -68,7 +68,7 @@ $ocultarFormulario = "block";
                     $_SESSION['email'] = $resultado['email'];
                     $_SESSION['idempleado'] = $resultado['cod_empleado'];
                     $_SESSION['rol'] = $resultado['rol'];
-
+                    ob_start(); 
                     header("Location: inicio.php");
                     exit();
                 } else {
