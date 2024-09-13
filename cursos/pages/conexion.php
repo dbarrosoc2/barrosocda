@@ -1,11 +1,15 @@
 <?php
 
-// Datos de conexión a la base de datos
+// // Datos de conexión a la base de datos
 $host = 'db5015927803.hosting-data.io';
 $dbname = 'dbs12981714';
 $username = 'dbu3816952';
 $password = 'umYNiq_3h8bi:VN';
 
+// $host = 'localhost';
+// $dbname = 'formacion';
+// $username = 'root';
+// $password = '';
 
 try {
     // Conexión a la base de datos utilizando PDO

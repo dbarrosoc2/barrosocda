@@ -20,6 +20,7 @@ $ocultarFormulario = "block";
         $mensaje .= '</div>';
         unset($_SESSION['errorDatos']); // Only unset errorDatos, don't destroy the whole session
     }
+    echo 5;
 
     $errores = array();
 
@@ -50,8 +51,8 @@ $ocultarFormulario = "block";
                 $consulta = $pdo->prepare("SELECT dni, cod_empleado, nombre, apellidos, email, telefono, password, ultima_conexion, rol 
                                            FROM personal 
                                            WHERE dni = :dni AND password = :password");
-                $consulta->bindParam(':dni', $user); // Assuming $user is the DNI
-                $consulta->bindParam(':password', $pass); // Assuming $pass is the plain password
+                $consulta->bindParam(':dni', $user); 
+                $consulta->bindParam(':password', $pass); 
                 $consulta->execute();
                 $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
 
