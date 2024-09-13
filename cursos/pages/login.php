@@ -61,6 +61,7 @@ session_start();
 
                     header("Location: inicio.php");
                     exit();
+                    
                 } else {
                     $_SESSION['errorDatos'] = true;
                     header("Location: " . $_SERVER['PHP_SELF']);
