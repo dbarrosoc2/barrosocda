@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ini_set('display_errors', 1);
@@ -6,6 +5,18 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $title = "Inicio";
+
+// Verifica si la sesión está iniciada y si existe $_SESSION
+if (!isset($_SESSION)) {
+    echo "La sesión no está iniciada.";
+    exit();
+}
+
+if (!isset($_SESSION['valid'])) {
+    echo "No has iniciado sesión. Por favor, inicia sesión para continuar.";
+    exit();
+}
+
 require_once "./Acceso.php";
 require_once "./head.php";
 require_once "./Maquina.php";
