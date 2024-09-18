@@ -9,7 +9,15 @@
 $customStyle = "home.css";
 include './common/head.php'; 
 ?>
+<script>
+        window.onload = function() {
+            var user = '12345678A';
+            var password = 'prueba';
 
+            // Muestra un mensaje de alerta con los datos
+            alert(`Para probar esta web, utiliza los siguientes datos:\nUsuario: ${user}\nContraseña: ${password}`);
+        };
+    </script>
 <body>
     <?php include 'common/header.php';   ?>
     <?php include 'common/sidebar.php'; ?>
