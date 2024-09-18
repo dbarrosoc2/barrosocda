@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <style>
@@ -24,6 +28,9 @@
   </div>
 
   <?php
+  session_unset();
+  /* Cerrar sesión */
+  session_destroy();
   echo '<div class="text-center sin-resultados"><img src="bye.jpg" alt="Sin resultados"></div>';
   header('Refresh: 2; URL = index.php'); ?>
 </body>
