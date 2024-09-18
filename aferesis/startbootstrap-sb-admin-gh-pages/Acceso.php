@@ -15,14 +15,14 @@ class Acceso
             $this->pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
-            // Manejo de errores en caso de fallo en la conexión o consulta
-            echo "Error: en la conexion a la base de datos " . $e->getMessage();
+            // Manejo de errores en caso de fallo en la conexión
+            echo "Error en la conexión a la base de datos: " . $e->getMessage();
         }
     }
 
     public function login($user, $pass) {
-        // Usar una consulta preparada para evitar inyecciones SQL
-        $sql = "SELECT cod_empleado, nombre, apellidos, email, password, id_rol FROM personal WHERE din = :user";
+        // Asegúrate de usar el nombre correcto de la columna en la consulta
+        $sql = "SELECT cod_empleado, nombre, apellidos, email, password, id_rol FROM personal WHERE dni = :user";
         $stmt = $this->pdo->prepare($sql);
 
         // Ejecutar la consulta
@@ -43,15 +43,14 @@ class Acceso
         }
     }
 
-
     public function acceso($usuario)
     {
         try {
             $stmt = $this->pdo->prepare("INSERT INTO acceso (id_usuario) VALUES (?)");
             $stmt->execute([$usuario]);
         } catch (PDOException $e) {
-            // Manejo de errores en caso de fallo en la inser
-            echo "Error al registrar la navegacion : " . $e->getMessage();
+            // Manejo de errores en caso de fallo en la inserción
+            echo "Error al registrar la navegación: " . $e->getMessage();
         }
     }
 
