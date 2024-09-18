@@ -149,7 +149,7 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
             </main>
         </div>
         <?php
-        require "footer.php";
+        require "./startbootstrap-sb-admin-gh-pages/footer.php";
         ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
