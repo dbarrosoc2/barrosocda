@@ -63,6 +63,7 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
     $userData = $acc->login($user, $pass);
 
     if ($userData) {
+        
         // Iniciar la sesión
         $_SESSION['valid'] = true;
         $_SESSION['timeout'] = time();
@@ -79,7 +80,7 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
         // Consultar y guardar la fecha del último acceso (asumiendo que tienes este método en tu clase)
         $ultimaConex = $acc->consultarFechaUltimoAcceso($_SESSION['usuario']);
         $_SESSION['ultimaCon'] = $ultimaConex;
-
+var_dump($_SESSION);
         header("Location: ./startbootstrap-sb-admin-gh-pages/inicio.php");
         exit();
     } else {
