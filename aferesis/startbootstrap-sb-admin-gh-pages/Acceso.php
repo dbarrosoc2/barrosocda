@@ -20,6 +20,30 @@ class Acceso
         }
     }
 
+    public function login($user, $pass) {
+        // Usar una consulta preparada para evitar inyecciones SQL
+        $sql = "SELECT * FROM personal WHERE din = :user";
+        $stmt = $this->pdo->prepare($sql);
+
+        // Ejecutar la consulta
+        $stmt->execute(['user' => $user]);
+
+        // Obtener el resultado
+        $userData = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($userData) {
+            // Verificar la contraseña
+            if (password_verify($pass, $userData['password'])) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return "Usuario no encontrado.";
+        }
+    }
+}
+
     public function acceso($usuario)
     {
         try {

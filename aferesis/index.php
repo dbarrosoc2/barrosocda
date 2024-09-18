@@ -56,26 +56,12 @@ $acc = new Acceso();
 
 // Comprueba si el usuario ha iniciado sesión
 if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass'])) {
-    $site = "10.35.49.125";
-    $port = 6774;
-    set_time_limit(0);
-    $fp = fsockopen($site, $port, $errno, $errstr, 10);
-
-    if (!$fp) {
-        $mensaje = "Falla en la Conexion";
-    } else {
-        $myObj = new stdClass();
-        $myObj->user = $_POST['user'];
-        $myObj->password = $_POST['pass'];
-        $myJSON = json_encode($myObj);
-        $a = fwrite($fp, $myJSON);
-        while (!feof($fp)) {
-            $output = fgets($fp, 2048);
-        }
-
-        $json = $output;
-        $obj = json_decode($json);
-        if ($obj->error == null && $obj->rol != 'Sin permisos') {
+    $user=stripslashes(htmlspecialchars($_POST['user']));
+    $pass=stripslashes(htmlspecialchars($_POST['pass']));
+   
+        $loginCorrecto=$acc->login($user, $pass);
+       
+        if($loginCorrecto){
             session_start();
             $_SESSION['valid'] = true;
             $_SESSION['timeout'] = time();
@@ -88,18 +74,13 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
             $_SESSION['mensaje'] = $mensaje;
             $ultimaConex = $acc->consultarFechaUltimoAcceso($_SESSION['usuario']);
             $_SESSION['ultimaCon'] = $ultimaConex;
-            $acc->acceso($_SESSION['usuario']);
-            header("Location: ./validacionInterna.php");
+            header("Location: ./startbootstrap-sb-admin-gh-pages/inicio.php");
             exit();
-        } else {
-            if ($obj->error == null && $obj->rol == 'Sin permisos') {
-                $mensaje = 'Usuario sin permisos';
-            } else {
+        }else {
                 $mensaje = 'Usuario o contraseña incorrecto';
-            }
         }
-    }
-}
+}    
+
 ?>
 
 <body class="bg-primary">
