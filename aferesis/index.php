@@ -46,9 +46,8 @@ error_reporting(E_ALL);
     <a class="navbar-brand ps-3" href="index.php">Aféresis</a>
 </nav>
 <?php
-session_start();
 $mensaje = '';
-require "funciones.php";
+require "./startbootstrap-sb-admin-gh-pages/funciones.php";
 require "Acceso.php";
 $acc = new Acceso();
 
@@ -77,6 +76,7 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
         $json = $output;
         $obj = json_decode($json);
         if ($obj->error == null && $obj->rol != 'Sin permisos') {
+            session_start();
             $_SESSION['valid'] = true;
             $_SESSION['timeout'] = time();
             $_SESSION['usuario'] = $obj->usuario;
