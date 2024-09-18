@@ -1,4 +1,5 @@
 <?php
+session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -51,7 +52,7 @@ require "./startbootstrap-sb-admin-gh-pages/funciones.php";
 require "./startbootstrap-sb-admin-gh-pages/Acceso.php";
 $acc = new Acceso();
 
-session_start();
+
 
 // Verificar si el formulario fue enviado y los campos no están vacíos
 if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass'])) {
