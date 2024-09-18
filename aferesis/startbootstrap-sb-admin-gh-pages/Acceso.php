@@ -21,19 +21,15 @@ class Acceso
     }
 
     public function login($user, $pass) {
-        // Asegúrate de usar el nombre correcto de la columna en la consulta
+        // Usar una consulta preparada para evitar inyecciones SQL
         $sql = "SELECT cod_empleado, nombre, apellidos, email, password, id_rol FROM personal WHERE dni = :user";
         $stmt = $this->pdo->prepare($sql);
-
-        // Ejecutar la consulta
         $stmt->execute(['user' => $user]);
-
-        // Obtener el resultado
         $userData = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($userData) {
-            // Verificar la contraseña
-            if (password_verify($pass, $userData['password'])) {
+            // Comparar la contraseña en texto plano
+            if ($pass === $userData['password']) {
                 return $userData; // Retorna los datos del usuario
             } else {
                 return false; // Contraseña incorrecta

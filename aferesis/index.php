@@ -3,7 +3,49 @@ session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-?><!DOCTYPE html>
+
+require "./startbootstrap-sb-admin-gh-pages/Acceso.php";
+$acc = new Acceso();
+
+if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass'])) {
+    $user = stripslashes(htmlspecialchars($_POST['user']));
+    $pass = stripslashes(htmlspecialchars($_POST['pass']));
+
+    // Intentar el login
+    $userData = $acc->login($user, $pass);
+
+    if ($userData) {
+        // Iniciar la sesión
+        $_SESSION['valid'] = true;
+        $_SESSION['timeout'] = time();
+        $_SESSION['usuario'] = $userData['cod_empleado'];
+        $_SESSION['rol'] = $userData['id_rol'];
+        $_SESSION['ip'] = $_SERVER['REMOTE_ADDR'];
+        $_SESSION['nombre'] = $userData['nombre'];
+        $_SESSION['apellidos'] = $userData['apellidos'];
+        $_SESSION['email'] = $userData['email'];
+        
+        $mensaje = 'Bienvenido ' . $_SESSION['nombre'] . ' ' . $_SESSION['apellidos'] . '<br>Tu rol es: ' . $_SESSION['rol'] . '<br>Estás conectado desde la IP: ' . $_SESSION['ip'];
+        $_SESSION['mensaje'] = $mensaje;
+
+        // Consultar y guardar la fecha del último acceso
+        $ultimaConex = $acc->consultarFechaUltimoAcceso($_SESSION['usuario']);
+        $_SESSION['ultimaCon'] = $ultimaConex;
+        
+        header("Location: ./startbootstrap-sb-admin-gh-pages/inicio.php");
+        exit();
+    } else {
+        // Mensaje de error si el login falla
+        $mensaje = "Usuario o contraseña incorrectos.";
+    }
+} else {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $mensaje = "Por favor, completa todos los campos.";
+    }
+}
+?>
+
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -21,7 +63,6 @@ error_reporting(E_ALL);
     <style>
         body {
             background-image: url('./startbootstrap-sb-admin-gh-pages/assets/img/prueba.jpg');
-            /* Reemplaza 'ruta/a/imagen.jpg' con la ruta de tu imagen */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -43,56 +84,6 @@ error_reporting(E_ALL);
     </style>
 
 </head>
-<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand ps-3" href="index.php">Aféresis</a>
-</nav>
-<?php
-$mensaje = '';
-require "./startbootstrap-sb-admin-gh-pages/funciones.php";
-require "./startbootstrap-sb-admin-gh-pages/Acceso.php";
-$acc = new Acceso();
-
-
-
-// Verificar si el formulario fue enviado y los campos no están vacíos
-if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass'])) {
-    $user = stripslashes(htmlspecialchars($_POST['user']));
-    $pass = stripslashes(htmlspecialchars($_POST['pass']));
-
-    // Intentar el login
-    $userData = $acc->login($user, $pass);
-
-    if ($userData) {
-        
-        // Iniciar la sesión
-        $_SESSION['valid'] = true;
-        $_SESSION['timeout'] = time();
-        $_SESSION['usuario'] = $userData['cod_empleado'];
-        $_SESSION['rol'] = $userData['id_rol'];
-        $_SESSION['ip'] = $_SERVER['REMOTE_ADDR'];
-        $_SESSION['nombre'] = $userData['nombre'];
-        $_SESSION['apellidos'] = $userData['apellidos'];
-        $_SESSION['email'] = $userData['email'];
-        
-        $mensaje = 'Bienvenido ' . $_SESSION['nombre'] . ' ' . $_SESSION['apellidos'] . '<br>Tu rol es: ' . $_SESSION['rol'] . '<br>Estás conectado desde la IP: ' . $_SESSION['ip'];
-        $_SESSION['mensaje'] = $mensaje;
-
-        // Consultar y guardar la fecha del último acceso (asumiendo que tienes este método en tu clase)
-        $ultimaConex = $acc->consultarFechaUltimoAcceso($_SESSION['usuario']);
-        $_SESSION['ultimaCon'] = $ultimaConex;
-var_dump($_SESSION);
-        header("Location: ./startbootstrap-sb-admin-gh-pages/inicio.php");
-        exit();
-    } else {
-        // Mensaje de error si el login falla
-        echo "Usuario o contraseña incorrectos.";
-    }
-} else {
-    echo "Por favor, completa todos los campos.";
-}
-
-?>
-
 <body class="bg-primary">
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
