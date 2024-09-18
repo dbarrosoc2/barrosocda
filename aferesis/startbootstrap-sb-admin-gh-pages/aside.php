@@ -85,19 +85,19 @@ $acceso = new Acceso();
             </div>
             <div class="sb-sidenav-footer">
                 <div class="small">Bienvenido
-                    <?php echo $_SESSION['nombre'] ?>
+                    <?php //echo $_SESSION['nombre'] ?>
                     <?php
                     // Obtener la fecha desde el timestamp
                     $hora = $_SESSION['ultimaCon'];
                     $fechaFormateada = date("Y-m-d", strtotime($hora));
 
                     // Imprimir la fecha formateada
-                    echo "<br>Ultima conexion: " . $fechaFormateada;
+                    //echo "<br>Ultima conexion: " . $fechaFormateada;
                     $hora = $_SESSION['ultimaCon'];
                     $horaFormateada = date("H:i:s", strtotime($hora));
 
                     // Imprimir la hora formateada
-                    echo "<br> a las: " . $horaFormateada;
+                    //echo "<br> a las: " . $horaFormateada;
                     ?>
                 </div>
 
