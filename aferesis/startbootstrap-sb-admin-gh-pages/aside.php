@@ -1,7 +1,7 @@
 <?php
-//if (session_status() === PHP_SESSION_NONE) {
+if (session_status() === PHP_SESSION_NONE) {
     session_start();
-//}
+}
 
 
 
@@ -88,7 +88,6 @@ $acceso = new Acceso();
                 <div class="small">Bienvenido
                     <?php echo $_SESSION['nombre'] ?>
                 </div>
-
             </div>
         </nav>
     </div>
