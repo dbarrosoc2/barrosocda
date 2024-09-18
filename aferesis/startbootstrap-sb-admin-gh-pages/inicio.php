@@ -28,6 +28,7 @@ require_once "./Maquina.php";
                 <!-- Tarjetas de Estadísticas -->
                 <div class="row">
                     <?php
+                    var_dump($_SESSION);
 
                     $acceso = new Acceso();
                     $cantidadDonantes = $acceso->obtenerCantidadDonantes();
