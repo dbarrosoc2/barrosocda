@@ -22,7 +22,7 @@ class Acceso
 
     public function login($user, $pass) {
         // Usar una consulta preparada para evitar inyecciones SQL
-        $sql = "SELECT * FROM personal WHERE din = :user";
+        $sql = "SELECT cod_empleado, nombre, apellidos, email, password, id_rol FROM personal WHERE din = :user";
         $stmt = $this->pdo->prepare($sql);
 
         // Ejecutar la consulta
@@ -34,12 +34,12 @@ class Acceso
         if ($userData) {
             // Verificar la contraseña
             if (password_verify($pass, $userData['password'])) {
-                return true;
+                return $userData; // Retorna los datos del usuario
             } else {
-                return false;
+                return false; // Contraseña incorrecta
             }
         } else {
-            return "Usuario no encontrado.";
+            return false; // Usuario no encontrado
         }
     }
 
