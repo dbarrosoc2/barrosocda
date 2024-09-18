@@ -61,6 +61,18 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
         crossorigin="anonymous" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <style>
+        .warning-message {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            z-index: 1000;
+        }
         body {
             background-image: url('./startbootstrap-sb-admin-gh-pages/assets/img/prueba.jpg');
             background-size: cover;
@@ -137,6 +149,12 @@ if (isset($_POST['submit']) && !empty($_POST['user']) && !empty($_POST['pass']))
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        window.onload = function() {
+            var message = "ATENCIÓN: Esta página está en construcción y no están listas todas las funciones. Si quieres probar, puedes acceder con\n\nUSUARIO: 12345678A\nPassword: prueba";
+            alert(message);
+        };
+    </script>
 </body>
 
 </html>
