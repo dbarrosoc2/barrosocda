@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 session_start();
 $title = "Inicio";
 require_once "./acceso.php";
 require_once "./head.php";
 require_once "./Maquina.php";
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <body class="sb-nav-fixed">
     <?php
     require_once "./nav.php";
