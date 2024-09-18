@@ -1,11 +1,12 @@
 
 <?php
+session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-session_start();
+
 $title = "Inicio";
-require_once "./acceso.php";
+require_once "./Acceso.php";
 require_once "./head.php";
 require_once "./Maquina.php";
 ?>
