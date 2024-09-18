@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 session_start();
 $title = "Mi Cuenta";
 require_once "./head.php";
 require "./Usuarios.php";
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <body class="sb-nav-fixed">
     <?php
     require_once "./nav.php";
