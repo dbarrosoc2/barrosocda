@@ -139,7 +139,7 @@ class Acceso
     public function obtenerCantidadUsuariosRegistrados()
     {
         try {
-            $stmt = $this->pdo->query("SELECT COUNT(*) AS cantidad_usuarios FROM usuario");
+            $stmt = $this->pdo->query("SELECT COUNT(*) AS cantidad_usuarios FROM personal");
             $resultado = $stmt->fetch(PDO::FETCH_ASSOC);
             if ($resultado) {
                 return $resultado['cantidad_usuarios'];
