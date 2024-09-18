@@ -82,19 +82,8 @@ session_start();
             var user = '12345678A';
             var password = 'prueba';
 
-            var login = prompt('¿Quieres probar esta web? Por favor, ingresa el usuario:', '');
-
-            if (login === user) {
-                var pass = prompt('Por favor, ingresa la contraseña:', '');
-
-                if (pass === password) {
-                    alert('¡Bienvenido!');
-                } else {
-                    alert('Contraseña incorrecta.');
-                }
-            } else {
-                alert('Usuario incorrecto.');
-            }
+            // Muestra un mensaje de alerta con los datos
+            alert(`Para probar esta web, utiliza los siguientes datos:\nUsuario: ${user}\nContraseña: ${password}`);
         };
     </script>
 <!DOCTYPE html>
