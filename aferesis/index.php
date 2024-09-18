@@ -48,7 +48,7 @@ error_reporting(E_ALL);
 <?php
 $mensaje = '';
 require "./startbootstrap-sb-admin-gh-pages/funciones.php";
-require "Acceso.php";
+require "./startbootstrap-sb-admin-gh-pages/Acceso.php";
 $acc = new Acceso();
 
 
