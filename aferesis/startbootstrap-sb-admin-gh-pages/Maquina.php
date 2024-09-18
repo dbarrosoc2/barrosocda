@@ -8,11 +8,10 @@ class Maquinas
 
     public function __construct()
     {
-        $host = '10.35.50.118'; // Quita el número de puerto aquí
-        $port = '3306'; // Agrega el número de puerto aquí
-        $dbname = 'aferesis';
-        $username = 'root';
-        $password = '12mariadb';
+                $alternatehost = 'db5015927825.hosting-data.io';
+        $dbname = 'dbs12981728';
+        $username = 'dbu1023870';
+        $password = 'umYNiq_3h8bi:VN';
 
         try {
             // Conexión a la base de datos utilizando PDO

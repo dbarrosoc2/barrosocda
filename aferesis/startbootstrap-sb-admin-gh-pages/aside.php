@@ -88,16 +88,16 @@ $acceso = new Acceso();
                 <div class="small">Bienvenido
                     <?php //echo $_SESSION['nombre'] ?>
                     <?php
-                    Obtener la fecha desde el timestamp
+                   //Obtener la fecha desde el timestamp
                     $hora = $_SESSION['ultimaCon'];
                     $fechaFormateada = date("Y-m-d", strtotime($hora));
 
-                    Imprimir la fecha formateada
+                    //Imprimir la fecha formateada
                     echo "<br>Ultima conexion: " . $fechaFormateada;
                     $hora = $_SESSION['ultimaCon'];
                     $horaFormateada = date("H:i:s", strtotime($hora));
 
-                    Imprimir la hora formateada
+                    //Imprimir la hora formateada
                     echo "<br> a las: " . $horaFormateada;
                     ?>
                 </div>
