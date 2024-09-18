@@ -1,6 +1,11 @@
 <?php
 session_start();
+session_unset();
+session_destroy();
 
+// Redirige a la página de inicio
+header('Location: ../index.php');
+exit();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -27,12 +32,9 @@ session_start();
     </div>
   </div>
 
-  <?php
-  session_unset();
-  /* Cerrar sesión */
-  session_destroy();
-  echo '<div class="text-center sin-resultados"><img src="bye.jpg" alt="Sin resultados"></div>';
-  header('Refresh: 2; URL = ../index.php'); ?>
+  <div class="text-center sin-resultados">
+    <img src="bye.jpg" alt="Sin resultados">
+  </div>
 </body>
 
 </html>
