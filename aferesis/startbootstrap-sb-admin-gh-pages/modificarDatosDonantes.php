@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <?php
 session_start();
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $title = "Editar donante";
 require_once "./head.php";
 require "./Donantes.php";
 $usuario = new Donantes();
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <body class="sb-nav-fixed">
     <?php
     require_once "./nav.php";

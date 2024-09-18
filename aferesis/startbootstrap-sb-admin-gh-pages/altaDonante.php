@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 session_start();
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $title = "Alta Donante";
 require_once "./head.php";
 require "./Usuarios.php";
@@ -96,7 +97,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <body class="sb-nav-fixed">
 
     <div id="layoutSidenav_content">
