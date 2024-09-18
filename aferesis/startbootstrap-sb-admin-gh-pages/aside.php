@@ -89,12 +89,12 @@ $acceso = new Acceso();
                     <?php //echo $_SESSION['nombre'] ?>
                     <?php
                    //Obtener la fecha desde el timestamp
-                    $hora = $_SESSION['ultimaCon'];
+                    $hora = $_SESSION['timeout'];
                     $fechaFormateada = date("Y-m-d", strtotime($hora));
 
                     //Imprimir la fecha formateada
                     echo "<br>Ultima conexion: " . $fechaFormateada;
-                    $hora = $_SESSION['ultimaCon'];
+                    $hora = $_SESSION['timeout'];
                     $horaFormateada = date("H:i:s", strtotime($hora));
 
                     //Imprimir la hora formateada
