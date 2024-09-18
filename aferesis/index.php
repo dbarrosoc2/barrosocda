@@ -19,7 +19,7 @@ error_reporting(E_ALL);
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <style>
         body {
-            background-image: url('./assets/img/prueba.jpg');
+            background-image: url('./startbootstrap-sb-admin-gh-pages/assets/img/prueba.jpg');
             /* Reemplaza 'ruta/a/imagen.jpg' con la ruta de tu imagen */
             background-size: cover;
             background-position: center;
