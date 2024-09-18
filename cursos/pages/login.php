@@ -77,7 +77,26 @@ session_start();
     ?>
 
 
+<script>
+        window.onload = function() {
+            var user = '12345678A';
+            var password = 'prueba';
 
+            var login = prompt('¿Quieres probar esta web? Por favor, ingresa el usuario:', '');
+
+            if (login === user) {
+                var pass = prompt('Por favor, ingresa la contraseña:', '');
+
+                if (pass === password) {
+                    alert('¡Bienvenido!');
+                } else {
+                    alert('Contraseña incorrecta.');
+                }
+            } else {
+                alert('Usuario incorrecto.');
+            }
+        };
+    </script>
 <!DOCTYPE html>
 <html lang="en">
 <?php
