@@ -42,7 +42,7 @@ class Acceso
             return "Usuario no encontrado.";
         }
     }
-}
+
 
     public function acceso($usuario)
     {
