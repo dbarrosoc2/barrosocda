@@ -482,12 +482,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["envio_noti"])) {
             </form>
         </div>
     </section>
-    <!-- Aside de la página para acciones adicionales -->
-    <!-- Aside de la página para acciones adicionales -->
-    <!-- Aside de la página para acciones adicionales -->
-    <!-- Aside de la página para acciones adicionales -->
-    <!-- Aside de la página para acciones adicionales -->
-    <!-- Aside de la página para acciones adicionales -->
+
     <aside>
         <div class="mb-3">
             <!-- Formulario del aside -->
