@@ -8,7 +8,7 @@ class Maquinas
 
     public function __construct()
     {
-                $alternatehost = 'db5015927825.hosting-data.io';
+        $alternatehost = 'db5015927825.hosting-data.io';
         $dbname = 'dbs12981728';
         $username = 'dbu1023870';
         $password = 'umYNiq_3h8bi:VN';
