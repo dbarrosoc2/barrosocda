@@ -133,6 +133,30 @@ p {
     color: #555;
     margin-bottom: 40px;
 }
+.logo-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.logo-icon {
+    width: 40px; /* Ajusta el tamaño según el logo */
+    height: 40px;
+}
+
+.logo-button:hover {
+    transform: translateY(-3px);
+}
+
 
     </style>
 </head>
@@ -209,6 +233,10 @@ p {
             </div>
         </div>
     </div>
+    <a href="#" class="logo-button">
+    <img src="ruta-de-tu-logo.png" alt="Logo" class="logo-icon">
+</a>
+
 
     <a href="https://wa.me/+34614197217" class="whatsapp-button" target="_blank">
         <i class="fab fa-whatsapp"></i>
