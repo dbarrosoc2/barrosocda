@@ -140,8 +140,8 @@
             left: 30px;
             background-color: white;
             border-radius: 50%;
-            width: 160px;
-            height: 160px;
+            width: 80px;
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -151,8 +151,8 @@
         }
 
         .logo-icon {
-            width: 90px;
-            height: 90px;
+            width: 70px;
+            height: 70px;
         }
 
         .logo-button:hover {
