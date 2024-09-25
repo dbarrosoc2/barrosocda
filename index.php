@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa;
+            /* background-color: #f8f9fa; */
             font-family: 'Poppins', sans-serif;
+            background: url(fondo.jpeg);
         }
 
         h1 {
