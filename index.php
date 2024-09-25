@@ -14,7 +14,7 @@
         body {
             /* background-color: #f8f9fa; */
             font-family: 'Poppins', sans-serif;
-            background: url(DavidBarroso.png);
+            background:no-repeat url(DavidBarroso.png);
         }
 
         h1 {
