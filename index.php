@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Barroso - Portafolio </title>
+    <title>David Barroso - Portafolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            /* background-color: #f8f9fa; */
             background: no-repeat center center url('fondo.jpeg');
             background-size: cover;
             background-attachment: fixed;
@@ -21,11 +20,11 @@
         h1 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
-            font-size: 3.5em; /* Aumentar el tamaño */
-            color: #343a40; /* Cambiar a un color más oscuro y elegante */
-            letter-spacing: 2px; /* Espaciado entre letras */
-            text-transform: uppercase; /* Convertir el texto a mayúsculas */
-            margin-bottom: 30px; /* Mayor separación */
+            font-size: 3.5em;
+            color: #343a40;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
         }
 
         p {
@@ -93,7 +92,7 @@
 
         .email-button {
             background-color: #007bff;
-            right: 90px; /* Para separarlo del botón de WhatsApp */
+            right: 90px;
         }
 
         .whatsapp-button:hover {
@@ -105,69 +104,69 @@
             background-color: #0056b3;
             transform: translateY(-3px);
         }
+
         .modern-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
-    font-weight: 700;
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-}
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
 
-.modern-subtitle {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #333;
-    margin-bottom: 30px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-}
+        .modern-subtitle {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5em;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
 
-p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 40px;
-}
-.logo-button {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    background-color: white; /* Fondo blanco */
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    border: 2px solid #ddd; /* Borde para destacar */
-}
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 40px;
+        }
 
-.logo-icon {
-    width: 140px;
-    height: 140px;
-}
+        .logo-button {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background-color: white;
+            border-radius: 50%;
+            width: 160px;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            border: 2px solid #ddd;
+        }
 
-.logo-button:hover {
-    transform: translateY(-3px);
-}
+        .logo-icon {
+            width: 140px;
+            height: 140px;
+        }
 
-
+        .logo-button:hover {
+            transform: translateY(-3px);
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container text-center mt-5">
-    <h1 class="modern-title">-David A Barroso C-</h1>
-    <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
-    <p>Elige una de las siguientes opciones:</p>
+        <h1 class="modern-title">-David A Barroso C-</h1>
+        <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
+        <p><strong>Proyectos que he realizado:</strong></p>
 
         <div class="row justify-content-center">
             <div class="col-md-4 card-custom">
@@ -182,6 +181,7 @@ p {
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 card-custom">
                 <div class="card">
                     <div class="card-body">
@@ -194,6 +194,7 @@ p {
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 card-custom">
                 <div class="card">
                     <div class="card-body">
@@ -209,7 +210,10 @@ p {
         </div>
     </div>
 
+    <!-- Nueva sección para Redes Sociales, Contacto y Currículo -->
     <div class="container text-center mt-5">
+        <p><strong>Acceso a Redes Sociales, Contacto y mi Currículo:</strong></p>
+
         <div class="row justify-content-center">
             <div class="col-md-4 card-custom">
                 <div class="card">
@@ -234,10 +238,10 @@ p {
             </div>
         </div>
     </div>
-    <a href="#" class="logo-button">
-    <img src="David_Barroso2.png" alt="Logo" class="logo-icon">
-</a>
 
+    <a href="#" class="logo-button">
+        <img src="David_Barroso2.png" alt="Logo" class="logo-icon">
+    </a>
 
     <a href="https://wa.me/+34614197217" class="whatsapp-button" target="_blank">
         <i class="fab fa-whatsapp"></i>
