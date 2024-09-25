@@ -135,7 +135,7 @@ p {
     margin-bottom: 40px;
 }
 .background-container {
-    background: url('DavidBarroso.png') no-repeat center center;
+    background: url('David_Barroso2.png');
     background-size: cover;
     padding: 50px;
     text-align: center;
