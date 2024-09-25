@@ -135,12 +135,12 @@ p {
 }
 .logo-button {
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 40px;
+    left: 40px;
     background-color: transparent;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 160px;
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,8 +149,8 @@ p {
 }
 
 .logo-icon {
-    width: 160px; 
-    height: 160px;
+    width: 140px; 
+    height: 140px;
 }
 
 .logo-button:hover {
