@@ -235,7 +235,7 @@ p {
         </div>
     </div>
     <a href="#" class="logo-button">
-    <img src="DavidBarroso.png" alt="Logo" class="logo-icon">
+    <img src="David_Barroso2.png" alt="Logo" class="logo-icon">
 </a>
 
 
