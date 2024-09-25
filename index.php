@@ -135,8 +135,8 @@ p {
 }
 .logo-button {
     position: fixed;
-    bottom: 40px;
-    left: 40px;
+    bottom: 30px;
+    left: 30px;
     background-color: transparent;
     border-radius: 50%;
     width: 160px;
