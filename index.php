@@ -137,7 +137,7 @@ p {
     position: fixed;
     bottom: 30px;
     left: 30px;
-    background-color: transparent;
+    background-color: white; /* Fondo blanco */
     border-radius: 50%;
     width: 160px;
     height: 160px;
@@ -146,10 +146,11 @@ p {
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    border: 2px solid #ddd; /* Borde para destacar */
 }
 
 .logo-icon {
-    width: 140px; 
+    width: 140px;
     height: 140px;
 }
 
