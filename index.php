@@ -149,8 +149,8 @@ p {
 }
 
 .logo-icon {
-    width: 40px; /* Ajusta el tamaño según el logo */
-    height: 40px;
+    width: 160px; 
+    height: 160px;
 }
 
 .logo-button:hover {
