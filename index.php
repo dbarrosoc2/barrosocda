@@ -13,8 +13,7 @@
     <style>
         body {
             /* background-color: #f8f9fa; */
-            font-family: 'Poppins', sans-serif;
-            background: no-repeat center center url('th.jpeg');
+            background: no-repeat center center url('fondo.jpeg');
             background-size: cover;
             background-attachment: fixed;
         }
@@ -134,29 +133,6 @@ p {
     color: #555;
     margin-bottom: 40px;
 }
-.background-container {
-    background: url('David_Barroso2.png') no-repeat center center;
-    background-size: cover;
-    padding: 50px;
-    text-align: center;
-    color: white; /* Cambia según el color de tu imagen de fondo */
-    height: 300px; /* Ajusta el tamaño según lo que necesites */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.modern-title {
-    font-size: 3em;
-    font-weight: bold;
-    margin: 0;
-}
-
-.modern-subtitle {
-    font-size: 1.5em;
-    margin-top: 10px;
-}
 
     </style>
 </head>
@@ -164,11 +140,8 @@ p {
 <body>
 
     <div class="container text-center mt-5">
-        <div class="background-container">
-            <h1 class="modern-title">-David A Barroso C-</h1>
-            <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
-        </div>
-
+    <h1 class="modern-title">-David A Barroso C-</h1>
+    <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
     <p>Elige una de las siguientes opciones:</p>
 
         <div class="row justify-content-center">
