@@ -151,8 +151,8 @@
         }
 
         .logo-icon {
-            width: 140px;
-            height: 140px;
+            width: 90px;
+            height: 90px;
         }
 
         .logo-button:hover {
