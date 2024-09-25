@@ -165,7 +165,7 @@
 
     <div class="container text-center mt-5">
         <h1 class="modern-title">-David A Barroso C-</h1>
-        <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigación</h4>
+        <h4 class="modern-subtitle">Desarrollador Web | Bioquímico | Investigador</h4>
         <p style="color: #0056b3; font-weight: bold;"><strong>Proyectos Realizados</strong></p>
 
 
